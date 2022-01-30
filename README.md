@@ -12,7 +12,7 @@
 
   - #### Math and reading scores by grade
   - #### Scores by school spending
-  - ####Scores by school size
+  - #### Scores by school size
   - #### Scores by school type
 
 
