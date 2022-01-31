@@ -1,7 +1,7 @@
 # PyCity Schools: A District-Wide Analysis of Reading and Math Standardized Test Scores in PyCity
 
 ## Overview and Background
-![District Overview](Resources/district overview.png)
+![District Overview](Resources/district%20overview.png)
 I was tasked with analyzing standardized testing data for the PyCity School District.  Data regarding each of the 15 schoolss in the district, its type, the number of students attending, and each school's budget was provided via csv file. I also received data regarding each student, the high school they attend, their grade, and their reading and math scores.  The primary task is to examine trends in the enderlying data. However, this anlysis needed to be adjusted given suspected tampering with 9th drade test scores from Thomas High School.  The purpose of this analysis is to now examine the data following the removal of the expected scores from the set. Such factors such as school spending per capita, school type, grade of student, as well as a number of other factors were examined for their effect on test results in the distrct. 
 
 ### Removing corrupted scores
