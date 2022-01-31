@@ -1,14 +1,14 @@
 # PyCity Schools: A District-Wide Analysis of Reading and Math Standardized Test Scores in PyCity
 
 ## Overview and Background
-![Load and Save Files](/Resources/load_save%20files.png)
+![District Overview](Resources/district overview.png)
 I was tasked with analyzing standardized testing data for the PyCity School District.  Data regarding each of the 15 schoolss in the district, its type, the number of students attending, and each school's budget was provided via csv file. I also received data regarding each student, the high school they attend, their grade, and their reading and math scores.  The primary task is to examine trends in the enderlying data. However, this anlysis needed to be adjusted given suspected tampering with 9th drade test scores from Thomas High School.  The purpose of this analysis is to now examine the data following the removal of the expected scores from the set. Such factors such as school spending per capita, school type, grade of student, as well as a number of other factors were examined for their effect on test results in the distrct. 
 
 ### Removing corrupted scores
 
 Using Python and the Pandas library, I was able to segregate corrupted scores using the. loc function, and replace those values with null, or, NaN figures so they would not skew the analysis. The results of this procedure can be seen in the images below for math and reading, respectively. The analysis on dsitrict scores was then reconducted and compared to the original result. 
-![Load and Save Files](/Resources/load_save%20files.png)
-![Load and Save Files](/Resources/load_save%20files.png)
+![Removing Math](Resources/remove_students_math.png)
+![REmoving Reading](Resources/remove_students_reading.png)
 
 ## Results
 - ### How is the district summary affected?
@@ -23,13 +23,13 @@ Using Python and the Pandas library, I was able to segregate corrupted scores us
   - #### Math and reading scores by grade
    - the removal of math and reading scores from 9th graders at Thomas High School is evident in the images presented above. As previously mentioned, the removal of the data makes in impossible to measure these students against others in the district. 
   - #### Scores by school spending
-   - ![Load and Save Files](/Resources/load_save%20files.png)
+   - ![Spending By_School](Resources/school_spending.png)
    - With less observations, per capita numbers from Thomas High School will be altered given that there are less students than in the original analysis. 
   - #### Scores by school size
-   - ![Load and Save Files](/Resources/load_save%20files.png)
+   - ![Size](Resources/school_size.png)
    - Though many observations were removed from the set. Thomas High School remains in the same size category as it did in the previous analysis. 
   - #### Scores by school type
-   - ![Load and Save Files](/Resources/load_save%20files.png)
+   - ![Type](Resources/type.png)
    - THomas high school was a charter school so the removal of the observations would change that category. 
 
 ## Summary
